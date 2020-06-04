@@ -7252,6 +7252,18 @@ a.text-dark:hover, a.text-dark:focus {
 .active {
   border: 1px solid white; }
 
+.header {
+  padding: 50px 0; }
+  .header__menu {
+    display: flex;
+    justify-content: space-between; }
+
+.menu__link {
+  color: #0A2F4B; }
+  .menu__link:hover {
+    color: #072135;
+    text-decoration: none; }
+
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif; }
