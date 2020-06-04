@@ -1,0 +1,27 @@
+.page-head
+  background: $mainColor
+  color: white
+  font-size: 12px
+  padding: 5px 0
+
+  & a
+    color: white
+
+  &__items
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+    > div:not(:last-of-type)
+      margin-right: 60px
+
+  &__language
+    display: flex
+    align-items: center
+    & a
+      height: 100%
+      display: inline-block
+
+
+.active
+  border: 1px solid white
