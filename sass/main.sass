@@ -2,7 +2,29 @@
 @import "variables"
 @import "components/page-head"
 @import "components/header"
+@import "components/order"
 
 body
   font-size: 16px
   font-family: 'Roboto', sans-serif
+
+.slick-arrow
+  width: 14px
+  height: 24px
+
+.slick-arrow.slick-prev
+  left: 25px
+  background: url("../images/arrow.svg") no-repeat center center / cover
+  z-index: 1
+  transform: rotate(-180deg) translate(0, 50%)
+
+  &::before
+    content: none
+
+.slick-arrow.slick-next
+  right: 25px
+  background: url("../images/arrow.svg") no-repeat center center / cover
+
+  &::before
+    content: none
+
