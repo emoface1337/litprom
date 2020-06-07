@@ -7401,6 +7401,32 @@ a.text-dark:hover, a.text-dark:focus {
     font-weight: 500;
     font-size: 18px; }
 
+.steel {
+  padding: 40px 0;
+  background: url("../../images/steel-bg.jpg") no-repeat right center;
+  background-size: contain; }
+  .steel__title {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px; }
+  .steel .steel-item:not(:last-of-type) {
+    margin-bottom: 20px; }
+  .steel-item {
+    display: flex;
+    align-items: center; }
+    .steel-item__image {
+      margin-right: 60px; }
+      .steel-item__image > img {
+        width: 86px;
+        height: 86px; }
+    .steel-item__content {
+      display: flex;
+      flex-direction: column;
+      font-size: 28px;
+      line-height: 33px; }
+      .steel-item__content > span {
+        font-size: 22px; }
+
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif; }

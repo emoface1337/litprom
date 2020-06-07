@@ -1,0 +1,31 @@
+.steel
+  padding: 40px 0
+  background: url("../../images/steel-bg.jpg") no-repeat right center
+  background-size: contain
+
+  &__title
+    text-align: center
+    font-weight: 500
+    margin-bottom: 40px
+
+  & .steel-item:not(:last-of-type)
+    margin-bottom: 20px
+
+  &-item
+    display: flex
+    align-items: center
+
+    &__image
+      margin-right: 60px
+      > img
+        width: 86px
+        height: 86px
+
+    &__content
+      display: flex
+      flex-direction: column
+      font-size: 28px
+      line-height: 33px
+
+      > span
+        font-size: 22px
