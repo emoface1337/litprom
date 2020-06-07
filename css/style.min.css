@@ -7425,7 +7425,8 @@ a.text-dark:hover, a.text-dark:focus {
       font-size: 28px;
       line-height: 33px; }
       .steel-item__content > span {
-        font-size: 22px; }
+        font-size: 22px;
+        color: #777777; }
 
 .experience {
   padding: 40px 0; }
@@ -7438,6 +7439,26 @@ a.text-dark:hover, a.text-dark:focus {
       margin-bottom: 20px; }
   .experience__image > img {
     border-radius: 20px; }
+
+.footer {
+  background: #0A2F4B;
+  color: white;
+  padding: 40px 0; }
+  .footer-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center; }
+    .footer-item__text {
+      margin-left: 10px; }
+      .footer-item__text > a {
+        color: white; }
+        .footer-item__text > a:hover {
+          text-decoration: none; }
+  .footer__copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px; }
 
 body {
   font-size: 16px;
