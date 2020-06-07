@@ -7273,6 +7273,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: white; }
   .order-content {
     background: #0A2F4B;
+    min-height: 367px;
     height: 100%;
     padding: 80px 80px 80px 40px;
     box-shadow: 0 4px 40px rgba(255, 255, 255, 0.45); }
