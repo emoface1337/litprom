@@ -7403,7 +7403,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .steel {
   padding: 40px 0;
-  background: url("../../images/steel-bg.jpg") no-repeat right center;
+  background: url("./../images/steel-bg.jpg") no-repeat right center;
   background-size: contain; }
   .steel__title {
     text-align: center;
