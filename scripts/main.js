@@ -1,1 +1,0 @@
-$('.order__slider').slick();
