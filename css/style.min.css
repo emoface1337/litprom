@@ -7427,9 +7427,24 @@ a.text-dark:hover, a.text-dark:focus {
       .steel-item__content > span {
         font-size: 22px; }
 
+.experience {
+  padding: 40px 0; }
+  .experience__title {
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .experience__list {
+    font-size: 22px; }
+    .experience__list > li:not(:last-of-type) {
+      margin-bottom: 20px; }
+  .experience__image > img {
+    border-radius: 20px; }
+
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
 
 .slick-arrow {
   width: 14px;
@@ -7452,3 +7467,6 @@ body {
 label {
   margin-bottom: 0;
   width: 100%; }
+
+ul {
+  margin: 0; }
