@@ -10,7 +10,7 @@ const postcss = require('gulp-postcss')
 const purgecss = require('gulp-purgecss')
 
 const paths = {
-    html: ['index.html'],
+    html: ['index.html', './**/index.html'],
     sass: ['./sass/**/*.sass', './sass/**/*.sass'],
     js: ['./scripts/**/*.js']
 }

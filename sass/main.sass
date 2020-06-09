@@ -10,6 +10,8 @@
 @import "components/steel"
 @import "components/experience"
 @import "components/footer"
+@import "components/contacts"
+@import "components/certificates"
 
 body
   font-size: 16px
@@ -44,3 +46,45 @@ label
 
 ul
   margin: 0
+
+.title__line
+  background: $mainColor
+  border-radius: 5px
+  height: 3px
+  width: 300px
+  margin: 20px auto 80px auto
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown
+  position: relative
+  display: inline-block
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content
+  display: none
+  position: absolute
+  background-color: #485D6D
+  min-width: 175px
+  //box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 1
+//border-radius: 0 0 10px 10px
+
+
+/* Links inside the dropdown */
+.dropdown-content
+  & a
+    color: white
+    padding: 10px 15px
+    text-decoration: none
+    display: block
+    font-size: 14px
+
+/* Change color of dropdown links on hover */
+.dropdown-content
+  & a:hover
+    background-color: darken(#485D6D, 5%)
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content
+  display: block

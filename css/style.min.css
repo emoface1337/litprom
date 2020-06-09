@@ -7264,6 +7264,11 @@ a.text-dark:hover, a.text-dark:focus {
 .menu__link {
   color: #0A2F4B;
   border-bottom: 2px solid white; }
+  .menu__link-dropdown {
+    color: #0A2F4B; }
+    .menu__link-dropdown:hover {
+      color: #072135;
+      text-decoration: none; }
   .menu__link:hover {
     color: #072135;
     text-decoration: none;
@@ -7358,8 +7363,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 40px 0 0 0; }
   .products__title {
     margin-bottom: 40px;
-    text-align: center;
-    font-weight: 500; }
+    text-align: center; }
   .products-item {
     display: flex;
     flex-direction: column;
@@ -7408,7 +7412,6 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: contain; }
   .steel__title {
     text-align: center;
-    font-weight: 500;
     margin-bottom: 80px; }
   .steel .steel-item:not(:last-of-type) {
     margin-bottom: 20px; }
@@ -7450,6 +7453,9 @@ a.text-dark:hover, a.text-dark:focus {
     align-items: center;
     font-size: 18px;
     justify-content: center; }
+    .footer-item__icon {
+      width: 24px;
+      height: 24px; }
     .footer-item__text {
       margin-left: 10px; }
       .footer-item__text > a {
@@ -7460,6 +7466,62 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 14px;
     text-align: center;
     margin-top: 40px; }
+
+.contacts {
+  padding: 0 0 40px 0; }
+  .contacts__title {
+    text-align: center; }
+  .contacts-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .contacts-phone__icon {
+      width: 38px;
+      height: 38px;
+      margin-right: 20px; }
+    .contacts-phone__text a {
+      font-size: 26px;
+      line-height: 30px;
+      color: black; }
+      .contacts-phone__text a:hover {
+        text-decoration: none;
+        color: #072135; }
+  .contacts-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .contacts-mail__icon {
+      width: 38px;
+      height: 38px;
+      margin-right: 20px; }
+    .contacts-mail__text a {
+      font-size: 26px;
+      line-height: 30px;
+      color: black; }
+      .contacts-mail__text a:hover {
+        text-decoration: none;
+        color: #072135; }
+  .contacts__row {
+    margin-bottom: 80px; }
+  .contacts__general {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 16px; }
+  .contacts__info p:first-child {
+    font-weight: bold; }
+  .contacts__info p:last-child {
+    margin-bottom: 0; }
+  .contacts__map img {
+    width: 100%; }
+
+.certificates {
+  padding: 0 0 40px 0; }
+  .certificates__title {
+    text-align: center; }
+  .certificates__thumb {
+    width: 200px; }
+  .certificates__row {
+    margin-bottom: 40px; }
 
 body {
   font-size: 16px;
@@ -7492,3 +7554,39 @@ label {
 
 ul {
   margin: 0; }
+
+.title__line {
+  background: #0A2F4B;
+  border-radius: 5px;
+  height: 3px;
+  width: 300px;
+  margin: 20px auto 80px auto; }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #485D6D;
+  min-width: 175px;
+  z-index: 1; }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px; }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #3e505e; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; }
