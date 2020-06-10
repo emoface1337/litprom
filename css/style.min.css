@@ -7564,6 +7564,23 @@ a.text-dark:hover, a.text-dark:focus {
 .history {
   padding: 0 0 40px 0; }
 
+.partners-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px; }
+  .partners-item__image {
+    margin-bottom: 10px; }
+    .partners-item__image > img {
+      width: 100%; }
+  .partners-item__title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px; }
+  .partners-item__description {
+    font-size: 14px;
+    color: gray; }
+
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif; }
