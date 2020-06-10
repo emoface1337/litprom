@@ -7443,6 +7443,8 @@ a.text-dark:hover, a.text-dark:focus {
     .experience__list > li:not(:last-of-type) {
       margin-bottom: 20px; }
   .experience__image > img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     width: 100%; }
 
 .footer {
@@ -7540,8 +7542,12 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 22px;
     display: block;
     font-weight: normal; }
+  .catalog__info > p:last-child {
+    margin-bottom: 0; }
   .catalog__name {
     margin-bottom: 20px; }
+  .catalog__name:first-child {
+    margin-top: 40px; }
   .catalog__table {
     text-align: center;
     margin-bottom: 40px; }
@@ -7550,6 +7556,28 @@ a.text-dark:hover, a.text-dark:focus {
       color: white; }
       .catalog__table > thead > tr:first-child > th {
         border: none; }
+  .catalog-download {
+    display: flex;
+    flex-direction: column; }
+    .catalog-download a:first-child {
+      margin-bottom: 20px; }
+    .catalog-download__link {
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+      border: 1px solid #0A2F4B;
+      padding: 5px 15px;
+      color: #0A2F4B;
+      justify-content: space-between; }
+      .catalog-download__link > svg {
+        width: 20px;
+        height: 20px; }
+      .catalog-download__link:hover {
+        text-decoration: none;
+        color: white;
+        background: #0A2F4B; }
+        .catalog-download__link:hover > svg > path {
+          fill: white; }
 
 .table thead th {
   vertical-align: middle; }

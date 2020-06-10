@@ -8,8 +8,15 @@
       display: block
       font-weight: normal
 
+  &__info
+    > p:last-child
+      margin-bottom: 0
+
   &__name
     margin-bottom: 20px
+
+  &__name:first-child
+    margin-top: 40px
 
   &__table
     text-align: center
@@ -22,6 +29,37 @@
       > tr:first-child
         > th
           border: none
+
+  &-download
+    display: flex
+    flex-direction: column
+
+
+    & a:first-child
+      margin-bottom: 20px
+
+    &__link
+      $self: &
+      display: flex
+      align-items: center
+      border-radius: 20px
+      border: 1px solid $mainColor
+      padding: 5px 15px
+      color: $mainColor
+      justify-content: space-between
+      > svg
+        width: 20px
+        height: 20px
+
+      &:hover
+        text-decoration: none
+        color: white
+        background: $mainColor
+
+        > svg
+          > path
+            fill: white
+
 
 .table thead th
   vertical-align: middle
