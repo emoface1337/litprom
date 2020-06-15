@@ -20,3 +20,10 @@
     color: darken($mainColor, 5%)
     text-decoration: none
     border-bottom: 2px solid darken($mainColor, 5%)
+
+@include media-breakpoint-only(xs)
+  .header
+    padding: 20px 0
+
+    &__menu
+      margin-top: 20px

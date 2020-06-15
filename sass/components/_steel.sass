@@ -16,6 +16,7 @@
 
     &__image
       margin-right: 60px
+
       > img
         width: 86px
         height: 86px
@@ -29,3 +30,25 @@
       > span
         font-size: 22px
         color: #777777
+
+@include media-breakpoint-only(xs)
+  .steel
+    padding: 20px 0
+    background: unset
+
+    &__title
+      margin-bottom: 20px
+
+    &-item
+      &__image
+        margin-right: 20px
+
+        > img
+          width: 43px
+          height: 43px
+
+      &__content
+        font-size: 18px
+        line-height: 28px
+        > span
+          font-size: 14px

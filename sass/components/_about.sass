@@ -26,9 +26,6 @@
       border-radius: 10px
       width: 100%
       height: 40px
-      display: flex
-      justify-content: center
-      align-items: center
 
       > a
         display: flex
@@ -44,3 +41,12 @@
 
       &:hover
         background: darken($mainColor, 5%)
+
+@include media-breakpoint-only(xs)
+  .about
+    padding: 20px 0 0 0
+    &-content
+      &__text
+        font-size: 14px
+    &-card:first-child
+      margin-bottom: 20px

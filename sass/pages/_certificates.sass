@@ -10,5 +10,11 @@
   &__row
     margin-bottom: 40px
 
-    & .col-md-3
-      text-align: center
+
+@include media-breakpoint-only(xs)
+  .certificates
+    padding: 0 0 40px 0
+    &__row
+      margin-bottom: 0
+    &__thumb
+      margin-bottom: 20px
